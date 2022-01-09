@@ -2,7 +2,7 @@
 Data Science stuffs
 
 
-# Check out a bigger script repository and ready to use code
+# Check out a bigger repository or script and ready to use code
 
 https://github.com/awstechguide/
 
