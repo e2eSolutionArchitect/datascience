@@ -1,0 +1,27 @@
+
+#### Density plot in R
+```
+install(tigerstats)
+require(tigerstats)
+
+# With no particular column of dataset 'data'
+densityplot(data, xlab="X axis label", main="Distribution of ...)
+
+# plot on a particular column/attribute 'column1 of dataset 'data'
+densityplot(~column1, data, xlab="X axis label", main="Distribution of ...)
+
+# Parallel two panels
+densityplot(~column1 | column2, data, xlab="X axis label", main="Distribution of ...)
+
+# Plot group in same panel
+densityplot(~column1 | column2, data, xlab="X axis label", main="Distribution of ...)
+
+densityplot(~col1,data=censusdata,
+       groups=gender,
+       xlab="X vals",
+       main="Density",
+       plot.points=FALSE,
+       auto.key=TRUE)
+
+densityplot(~income,data, xlab="Income", main="Distribution of Income",plot.points=FALSE)
+```
