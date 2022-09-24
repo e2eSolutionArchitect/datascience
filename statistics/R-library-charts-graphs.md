@@ -1,6 +1,7 @@
 
 #### Density plot in R
 ```
+install(tigerstats)
 require(tigerstats)
 
 # With no particular column of dataset 'data'
