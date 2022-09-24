@@ -12,3 +12,7 @@ for(i in 1:ntimes)
         sample_sd[i] = sd(new_sample) 
 }
 df_data = data.frame(sample_mean, sample_sd)
+
+#### Plot df_data  sample mean using ggplot 
+
+ggplot(df_data, aes(x = sample_mean)) + geom_histogram(col="red", fill="blue", binwidth=1) + xlab("Values of Bootstrap Statistic") + ylab("Count") + ggtitle("Histogram of Bootstrap Statistic: Sample mean")
