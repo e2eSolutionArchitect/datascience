@@ -25,3 +25,10 @@ densityplot(~col1,data=censusdata,
 
 densityplot(~income,data, xlab="Income", main="Distribution of Income",plot.points=FALSE)
 ```
+
+#qdata could not find function "qdata"
+```
+install(mosaic)
+library(mosaic)
+qdata(~dmeans, c(0.025, 0.975), data=df_boot_q2)
+```
