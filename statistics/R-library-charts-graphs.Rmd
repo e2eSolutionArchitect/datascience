@@ -31,9 +31,14 @@ densityplot(~income,data, xlab="Income", main="Distribution of Income",plot.poin
 install(mosaic)
 library(mosaic)
 qdata(~dmeans, c(0.025, 0.975), data=df_boot_q2)
+OR
+quantile(dmeans, c(0.025, 0.975))
 ```
+
 # could not find function "favstats"
+
+```
 install(mosaic)
 require(tigerstats)
 favstats(~col1, data=dataset)
-
+```
