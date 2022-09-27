@@ -42,3 +42,15 @@ install(mosaic)
 require(tigerstats)
 favstats(~col1, data=dataset)
 ```
+
+Using do function
+
+```
+data = c(2.1,4,5,2,2,.....)
+
+n = number of simulation or resampling
+do(1000) * var(resample(data))
+do(1000) * mean(resample(data))
+
+
+```
