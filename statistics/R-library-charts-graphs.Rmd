@@ -26,6 +26,12 @@ densityplot(~col1,data=censusdata,
 densityplot(~income,data, xlab="Income", main="Distribution of Income",plot.points=FALSE)
 ```
 
+merge two density plot
+```
+plot(density(data1$col1))
+lines(density(data2$col2))
+```
+
 #qdata could not find function "qdata"
 ```
 install(mosaic)
@@ -51,6 +57,4 @@ data = c(2.1,4,5,2,2,.....)
 n = number of simulation or resampling
 do(1000) * var(resample(data))
 do(1000) * mean(resample(data))
-
-
 ```
