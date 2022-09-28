@@ -26,7 +26,7 @@ densityplot(~col1,data=censusdata,
 densityplot(~income,data, xlab="Income", main="Distribution of Income",plot.points=FALSE)
 ```
 
-merge two density plot
+merge two density plot [refer here](https://stackoverflow.com/questions/6939136/how-to-overlay-density-plots-in-r)
 ```
 plot(density(data1$col1))
 lines(density(data2$col2))
