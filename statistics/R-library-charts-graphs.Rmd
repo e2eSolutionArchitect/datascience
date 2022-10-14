@@ -62,3 +62,17 @@ do(1000) * mean(resample(data))
 ```
 plot(x=x_vals, y=y_vals, xlab="Values of x", ylab="Y vals", main="Title", type="l")
 ```
+## ggplot side by side
+
+```
+library(ggplot2)
+library(patchwork)
+
+plot1= ggplot(data=df_manager, aes(x = Time, y = Value, color=Sex)) + geom_point(size=2, position="jitter") + xlab("Time") + ylab("Value") + ggtitle("Managers Globally")
+
+plot2= ggplot(data=df_manager_can, aes(x = Time, y = Value, color=Sex)) + geom_point(size=2, position="jitter") + xlab("Time") + ylab("Value") + ggtitle("Managers in Canada")
+
+plot1+plot2
+
+
+```
