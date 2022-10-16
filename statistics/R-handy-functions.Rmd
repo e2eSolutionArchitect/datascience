@@ -1,0 +1,6 @@
+
+Select distinct values from a column of a data frame
+
+```
+distinct(df_data, Col1, .keep_all = FALSE)
+````
