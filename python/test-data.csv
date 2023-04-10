@@ -1,0 +1,21 @@
+user_name,user_location,user_description,user_created,user_followers,user_friends,user_favourites,user_verified,date,text,hashtags,source,is_retweet
+username01,US,User from US,5/26/2017 5:46,624,950,18775,FALSE,7/25/2020 12:27,Tweet from user01,us,Twitter for iPhone,FALSE
+username02,Canada,User from Canada,4/16/2009 20:06,2253,1677,24,TRUE,7/25/2020 12:27,Tweet from user02,canada,Twitter for Android,FALSE
+username03,Kenya,User from Kenya,2/28/2009 18:57,9275,9525,7254,FALSE,7/25/2020 12:27,Tweet from user03,kenya,Twitter for Android,FALSE
+username04,Australia,User from Australia,3/7/2019 1:45,197,987,1488,FALSE,7/25/2020 12:27,Tweet from user04,australia,Twitter for iPhone,FALSE
+username05,Australia,User from Australia,2/12/2017 6:45,101009,168,101,FALSE,7/25/2020 12:27,Tweet from user05,australia,Twitter for Android,FALSE
+username06,Canada,User from Canada,3/19/2018 16:29,1180,1071,1287,FALSE,7/25/2020 12:27,Tweet from user06,canada,Twitter Web App,FALSE
+username07,US,User from US,8/12/2008 18:19,79956,54810,3801,FALSE,7/25/2020 12:27,Tweet from user07,us,Buffer,FALSE
+username08,Mexico,User from Mexico,2/3/2012 18:08,608,355,95,FALSE,7/25/2020 12:27,Tweet from user08,mexico,TweetDeck,FALSE
+username09,Mexico,User from Mexico,4/25/2015 8:15,25,29,18,FALSE,7/25/2020 12:26,Tweet from user09,mexico,Twitter for Android,FALSE
+username10,Africa,User from Africa,8/17/2014 4:53,55201,34239,29802,FALSE,7/25/2020 12:26,Tweet from user10,africa,Twitter for iPhone,FALSE
+username11,UAE,User from UAE,7/14/2020 17:50,8,10,7,FALSE,7/25/2020 12:26,Tweet from user11,uae,Twitter Web App,FALSE
+username12,India,User from India,1/12/2020 9:03,241,1694,8443,FALSE,7/25/2020 12:26,Tweet from user12,india,Twitter Web App,FALSE
+username13,UAE,User from UAE,3/25/2010 21:16,0,8,32,FALSE,7/25/2020 12:26,Tweet from user13,uae,Twitter Web App,FALSE
+username14,France,User from France,5/13/2019 6:27,830,254,3692,FALSE,7/25/2020 12:26,Tweet from user14,france,Twitter Web App,FALSE
+username15,UK,User from UK,10/22/2016 9:18,546,29,88,FALSE,7/25/2020 12:26,Tweet from user15,uk,Twitter Web App,FALSE
+username16,France,User from France,11/11/2019 12:02,274,32,378,FALSE,7/25/2020 12:26,Tweet from user16,france,Twitter for Android,FALSE
+username17,Canada,User from Canada,4/26/2009 9:38,3987,53,749,FALSE,7/25/2020 12:26,Tweet from user17,canada,Twitter for iPhone,FALSE
+username18,US,User from US,6/13/2009 13:48,283,1432,1546,FALSE,7/25/2020 12:26,Tweet from user18,us,Twitter for Android,FALSE
+username19,UK,User from UK,1/30/2011 18:40,46,108,453,FALSE,7/25/2020 12:26,Tweet from user19,uk,Twitter Web App,FALSE
+username20,Mexico,User from Mexico,12/3/2019 19:00,14,24,74,FALSE,7/25/2020 12:26,Tweet from user20,mexico,Twitter for iPad,FALSE
