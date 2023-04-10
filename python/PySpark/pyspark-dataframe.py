@@ -17,7 +17,7 @@ spark.sparkContext.addFile(url)
 ```
 
 ```
-df = spark.read.csv(SparkFiles.get("ssa-pop3-eng.csv"), header=True, inferSchema= True)
+df = spark.read.csv(SparkFiles.get("test-data.csv"), header=True, inferSchema= True)
 df.show()
 df.printSchema()
 ```
