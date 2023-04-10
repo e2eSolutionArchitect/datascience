@@ -12,7 +12,7 @@ print("appName: "+ spark.sparkContext.appName)
 ## Read a CSV
 ```
 url = "https://github.com/e2eSolutionArchitect/datascience/blob/main/python/test-data.csv"
-#from pyspark import SparkFiles
+from pyspark import SparkFiles
 spark.sparkContext.addFile(url)
 ```
 
