@@ -4,7 +4,7 @@ Data Science stuff
 
 # Check out a bigger repository of the script and ready-to-use code
 
-https://github.com/awstechguide/
+https://github.com/e2eSolutionArchitect/
 
 # End to End Solution Architect tutorials
 
