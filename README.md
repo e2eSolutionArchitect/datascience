@@ -1,4 +1,4 @@
-:writing_hand: Feel free to contact and collaborate with us. You are welcome to contribute in our forum to build a better tomorrow. 
+:writing_hand: Feel free to contact and collaborate with us. You are welcome to contribute to our forum to build a better tomorrow. 
 
 # datascience
 Data Science stuff
