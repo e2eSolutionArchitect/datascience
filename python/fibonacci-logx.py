@@ -37,10 +37,11 @@ for k in Fn:
 
 # plt.plot(a, Fn,color = 'red', marker = "o") 
 
-plt.plot(a, output_log5,color = 'red', marker = "o") 
-plt.plot(a, output_log10,color = 'blue', marker = "o") 
-plt.plot(a, output_log20,color = 'green', marker = "o") 
-		
+#plt.plot(a, Fn,color = 'black', marker = "o") 
+plt.plot(a, output_log5,color = 'red', marker = "o", label="Log5") 
+plt.plot(a, output_log10,color = 'blue', marker = "o",label="Log10") 
+plt.plot(a, output_log20,color = 'green', marker = "o",label="Log20") 
+plt.legend(loc="upper left")
 plt.title("Fibonacci") 
 plt.xlabel("Input") 
 plt.ylabel("Output") 
