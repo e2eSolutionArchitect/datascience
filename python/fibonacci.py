@@ -12,7 +12,6 @@ for i in range(11):
 
 print(output)
 
-# red for numpy.log() 
 plt.plot(input, output, 
 		color = 'red', marker = "o") 
 		
