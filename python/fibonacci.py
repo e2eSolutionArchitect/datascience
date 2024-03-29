@@ -1,35 +1,26 @@
 import numpy as np 
 import matplotlib.pyplot as plt 
 
-input_len=50
+# We are creating an array containing n = 10 elements 
+# for getting the first 10 Fibonacci numbers 
+a = np.arange(1, 200) 
+lengthA = len(a) 
 
-input = np.arange(0,input_len)
-output = np.empty(input_len, dtype=object)
+# splitting of terms for easiness 
+sqrtFive = np.sqrt(5) 
+alpha = (1 + sqrtFive) / 2
+beta = (1 - sqrtFive) / 2
 
-def mm_fib(n):
-    return (np.matrix([[2,1],[1,1]])**(n//2))[0,(n+1)%2]
+# Implementation of formula 
+# np.rint is used for rounding off to an integer 
+Fn = np.rint(((alpha ** a) - (beta ** a)) / (sqrtFive)) 
+print("The first {} numbers of Fibonacci series are {} . ".format(lengthA, Fn)) 
 
-for i in range(input_len):
-    output[i]= mm_fib(i)
-
-print(output)
-
-plt.plot(input, output, 
+# red for numpy.log() 
+plt.plot(a, Fn, 
 		color = 'red', marker = "o") 
 		
-plt.title("Fibonacci numbers") 
+plt.title("Fibonacci") 
 plt.xlabel("Input") 
-plt.ylabel("Output") 
+plt.ylabel("Putput") 
 plt.show() 
-
-
-```
-# Why does the series show a negative number when the input length is greater than 47? 
-[0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765
- 10946 17711 28657 46368 75025 121393 196418 317811 514229 832040 1346269
- 2178309 3524578 5702887 9227465 14930352 24157817 39088169 63245986
- 102334155 165580141 267914296 433494437 701408733 1134903170 1836311903
- -1323752223 512559680 -811192543]
-
-check the experiment in version 2
-```
