@@ -4,8 +4,10 @@ import math
 
 # We are creating an array containing n = 10 elements 
 # for getting the first 10 Fibonacci numbers 
-a = np.arange(1, 10) 
-output_log10 = np.arange(1, 10) 
+
+input_number=100
+a = np.arange(1, input_number) 
+output_log10 = np.arange(1, input_number) 
 lengthA = len(a) 
 
 # splitting of terms for easiness 
@@ -25,14 +27,13 @@ for k in Fn:
     print('Log base 10 of {} is {}'.format(k, math.log10(k)))
     m=m+1
 
-print(output_log10)
-#output_log10=math.log10(Fn)
+#print(output_log10)
 
 print("The first {} numbers of Fibonacci series are {} . ".format(lengthA, Fn)) 
 
-# red for numpy.log() 
-plt.plot(a, Fn, 
-		color = 'red', marker = "o") 
+# plt.plot(a, Fn,color = 'red', marker = "o") 
+
+plt.plot(a, output_log10,color = 'red', marker = "o") 
 		
 plt.title("Fibonacci") 
 plt.xlabel("Input") 
