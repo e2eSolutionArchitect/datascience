@@ -1,15 +1,15 @@
 import numpy as np 
 import matplotlib.pyplot as plt 
 
-input_len=11 # test with 40, 50, 100 and check log
+input_len=50
 
 input = np.arange(0,input_len)
-output = numpy.empty(input_len, dtype=object)
+output = np.empty(input_len, dtype=object)
 
 def mm_fib(n):
-    return (numpy.matrix([[2,1],[1,1]])**(n//2))[0,(n+1)%2]
+    return (np.matrix([[2,1],[1,1]])**(n//2))[0,(n+1)%2]
 
-for i in range(11):
+for i in range(input_len):
     output[i]= mm_fib(i)
 
 print(output)
