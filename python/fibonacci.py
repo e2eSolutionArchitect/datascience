@@ -1,7 +1,7 @@
 import numpy as np 
 import matplotlib.pyplot as plt 
 
-input_len=11
+input_len=11 # test with 40, 50, 100 and check log
 
 input = np.arange(0,input_len)
 output = numpy.empty(input_len, dtype=object)
