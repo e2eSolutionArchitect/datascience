@@ -1,8 +1,10 @@
 import numpy as np 
 import matplotlib.pyplot as plt 
 
-input = np.arange(1,12)
-output = numpy.empty(11, dtype=object)
+input_len=11
+
+input = np.arange(0,input_len)
+output = numpy.empty(input_len, dtype=object)
 
 def mm_fib(n):
     return (numpy.matrix([[2,1],[1,1]])**(n//2))[0,(n+1)%2]
