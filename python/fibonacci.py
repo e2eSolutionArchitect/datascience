@@ -24,3 +24,9 @@ plt.title("Fibonacci")
 plt.xlabel("Input") 
 plt.ylabel("Putput") 
 plt.show() 
+
+
+```
+- Find the pattern of change in slope
+
+```
